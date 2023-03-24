@@ -35,7 +35,7 @@ public class LoginFormController {
             if (dto.getEmail().trim().toLowerCase().equals(email)) {
                 if (dto.getPassword().equals(password)) {
                     if (dto.getAccountType().equals(accountType)) {
-                        new Alert(Alert.AlertType.CONFIRMATION," Success!").show();
+                        new Alert(Alert.AlertType.CONFIRMATION," Success, you Logged in!").show();
                         Cookie.selectedUser =dto;
 //                        Stage stage = (Stage) loginContext.getScene().getWindow();
 //                        stage.setScene(new Scene(FXMLLoader.
